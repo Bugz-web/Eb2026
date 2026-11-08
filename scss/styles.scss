@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Inter";
+    src:url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Inter";
+}
+
+.navbar .btn-outline-light:hover {
+    color: #2b3041;
+}
+
+.header {
+    background: url(../images/header-background.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    // opacity: 0.75;
+    transition: all 1s ease-in-out;
+}
+
+.modal-dialog {
+    max-width: 1040px;
+}
+
+.download {
+    background: url(../images/download-background.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.download .image-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .hero .image-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        background: #000;
+        // opacity: 1;
+    }
+}
+
